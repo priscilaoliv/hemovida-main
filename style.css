@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 .headerInformacao {
   padding: 20px;
   background-color: #bf2a2a;
@@ -88,6 +87,7 @@
 
 .carousel-inner img {
   height: 500px;
+  width: 100%;
   object-fit: cover;
   object-position: center;
 }
