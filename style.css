@@ -39,8 +39,8 @@
 }
 
 .info-menu li:hover {
-  background-color: #fff; /* fundo branco no hover */
-  color: #8c1b1b; /* texto da cor do header */
+  background-color: #fff;
+  color: #8c1b1b;
 }
 
 .logo {
