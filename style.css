@@ -38,6 +38,11 @@
   margin: 0 auto;
 }
 
+.info-menu li:hover {
+  background-color: #fff; /* fundo branco no hover */
+  color: #8c1b1b; /* texto da cor do header */
+}
+
 .logo {
   margin-top: 10px;
   margin-bottom: 10px;
