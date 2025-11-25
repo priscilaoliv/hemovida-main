@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hemovida-Agendamentos</title>
+    <link rel="stylesheet" href="styleAgendamento.css">
+    <link rel="stylesheet" href="script.js">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+        <div class="headerInformacao">
+          <nav>
+            <ul class="info-lista">
+              <li><i class="fas fa-phone"></i> +55 799 4002-8922</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Av. Prof. José Bonifácio
+                Fortes
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="info-header">
+          <div class="logo">
+            <img src="logo-hemose.png" alt="Logo Hemovida" />
+          </div>
+          <div>
+            <nav>
+              <ul class="info-menu">
+                <li><a href="index.html"><b>Início</b></a></li>
+                <li><b>Quem somos</b></li>
+                <li><b>Contatos</b></li>
+                <li><a href="agendamentos.html"><b>Agendamentos</b></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="estilo">
+    <div class="container">
+    <h1><b>Agendamento</b></h1>
+    <form id="AgendamentoForm" autocomplete="off">
+        <div class="input-group">
+          <input type="text" id="nomeUser" placeholder="Nome do Usuário" required autocomplete="off" />
+        </div>
+        <div class="input-group">
+          <input type="text" id="CPFUser" placeholder="CPF" required autocomplete="off" />
+        </div>
+        <div class="input-group">
+          <input type="text" id="senha" placeholder="Senha" required autocomplete="off" />
+        </div>
+        <button type="submit" class="enviar" onclick="Enviar();" value="submit">Salvar</button>
+      </form>      
+  </div>
+    </div>
+      <footer
+      class="text-white text-center py-3"
+      style="background-color: #bf2a2a"
+    >
+      <p
+        style="
+          margin-bottom: 0;
+          padding: 10px;
+          font-size: clamp(14px, 1.5vw, 18px);
+        "
+      >
+        &copy; 2025 Hemovida - Todos os direitos reservados
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
